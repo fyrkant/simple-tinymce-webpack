@@ -6,4 +6,4 @@ Usage:
 
 1. Clone repo
 2. Run `yarn` to install packages (don't have yarn? [get it here](https://github.com/yarnpkg/yarn))
-3. Run `npm start` to start dev server
+3. Run `yarn start` to start dev server
