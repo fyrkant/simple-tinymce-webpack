@@ -1,11 +1,11 @@
-import tinymce from 'tinymce/tinymce'
+import tinymce from 'tinymce'
 
-import 'tinymce/themes/modern/theme'
-import 'tinymce/plugins/paste/plugin'
-import 'tinymce/plugins/link/plugin'
-import 'tinymce/plugins/autoresize/plugin'
-import 'tinymce/plugins/imagetools/plugin'
-import 'tinymce/plugins/table/plugin'
+import 'tinymce/themes/modern'
+import 'tinymce/plugins/paste'
+import 'tinymce/plugins/link'
+import 'tinymce/plugins/autoresize'
+import 'tinymce/plugins/imagetools'
+import 'tinymce/plugins/table'
 
 require.context(
   'file?name=[path][name].[ext]&context=node_modules/tinymce!tinymce/skins',
