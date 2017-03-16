@@ -6,21 +6,21 @@
   "scripts": {
     "build": "webpack",
     "build:prod": "webpack -p",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server --open"
   },
   "dependencies": {
-    "babel-core": "^6.21.0",
-    "babel-loader": "^6.2.10",
-    "babel-preset-es2015": "^6.18.0",
-    "file-loader": "^0.9.0",
-    "tinymce": "4.5.2",
-    "webpack": "^1.14.0",
-    "webpack-dev-server": "^1.16.2"
+    "babel-core": "6.24.0",
+    "babel-loader": "6.4.1",
+    "babel-preset-es2015": "6.24.0",
+    "file-loader": "0.10.1",
+    "tinymce": "4.5.5",
+    "webpack": "2.2.1",
+    "webpack-dev-server": "2.4.2"
   },
   "devDependencies": {
-    "eslint": "^3.12.2",
-    "eslint-config-standard": "^6.2.1",
-    "eslint-plugin-promise": "^3.4.0",
-    "eslint-plugin-standard": "^2.0.1"
+    "eslint": "3.17.1",
+    "eslint-config-standard": "7.0.1",
+    "eslint-plugin-promise": "3.5.0",
+    "eslint-plugin-standard": "2.1.1"
   }
 }
